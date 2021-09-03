@@ -52,7 +52,7 @@ export default function Portfolio() {
                 </div>
                 <div className='wrapper'>
                 <div className="item">
-                <a href="https://stayintouch1.herokuapp.com" class="image fit" target="_blank" rel='noreferrer'><img src="https://res.cloudinary.com/lidu4394/image/upload/v1616167107/zhklfoaz9dzpp0qcu57g.png" alt="" /></a>
+                <a href="https://stayintouch1.herokuapp.com"  target="_blank" rel='noreferrer'><img src="https://res.cloudinary.com/lidu4394/image/upload/v1616167107/zhklfoaz9dzpp0qcu57g.png" alt="" /></a>
                 <h3>Social Media</h3>
                 </div>
 										<header>
