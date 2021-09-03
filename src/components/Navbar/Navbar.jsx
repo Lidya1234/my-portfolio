@@ -20,9 +20,9 @@ export default function Navbar({menuOpen, setMenuOpen}) {
                  <div className='itemContainer'>
                  <a href="https://twitter.com/Lidya42676629" target="_blank" rel='noreferrer'><TwitterIcon className='icon'/></a>
                  </div>
-                 <div className='itemContainer'>
+                 <div className='itemContainer mail'>
                      <Mail className='icon'/>
-                     <span>lidya94gher@gmail.com</span>
+                     <span className='mail'>lidya94gher@gmail.com</span>
                  </div>
                 </div>
                 <div className='right'>
