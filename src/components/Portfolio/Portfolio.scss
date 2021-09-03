@@ -7,7 +7,7 @@
   align-items: center;
 
   h1 {
-      font-size: 50px;
+      font-size: 20px;
   }
   .container{
       width: 70%;
@@ -15,6 +15,10 @@
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
+      @include mobile{
+          width: 100%;
+      }
+
 
       .wrapper{
           width: 270px;
@@ -22,6 +26,11 @@
          margin-top: 30px;
          margin-left: 20px;
         //   margin: 10px 20px;
+
+        @include mobile{
+            width: 160px;
+            height: 130px;
+        }
           header {
 			background: #fff;
 			margin: 0;
@@ -39,6 +48,9 @@ h6{
 			 h3 {
 				font-size: 20px;
 			}
+            @include mobile {
+                display: none;
+            }
         }
       
       .item{
@@ -55,6 +67,11 @@ h6{
         position: relative;
         transition: all 0.5s ease;
         cursor: pointer;
+
+        @include mobile{
+            width: 150px;
+            height: 120px;
+        }
       h3{
           font-size: 20px;
           position: absolute;
