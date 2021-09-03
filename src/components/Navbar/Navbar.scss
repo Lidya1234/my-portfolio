@@ -24,6 +24,9 @@
             text-decoration: none;
             color: inherit;
             margin-right: 40px;
+            @include mobile{
+                margin-right: 30px;
+            }
         }
 
         .itemContainer {
@@ -31,11 +34,20 @@
          align-items: center;
          margin-left: 30px;
 
+         @include mobile{
+             margin-left: 10px;
+             margin-top: 5px;
+         }
+
          a{
              color: black;
          }
         }
-
+        .mail{
+            @include mobile{
+                display: none;
+            }
+        }
         .icon {
             font-size: 18px;
             margin-right: 5px;
@@ -71,7 +83,9 @@
 &.active {
        background-color: $mainColor;
         color: white;
-
+  .icon {
+      color: white;
+  }
 
     .hamburger {
         span{
