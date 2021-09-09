@@ -10,7 +10,7 @@ export default function Intro() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ['Designer', 'Developer', 'Content Creator'],
+            strings: ['HTML&CSS', 'JAVASCRIPT,REACT&REDUX', 'RUBY&ROR', 'JAVA&PHP'],
         })
     },[])
     return (
@@ -23,8 +23,8 @@ export default function Intro() {
             <div  className='right'>
                 <div className="wrapper">
                     <h2>Hi There, I'm</h2>
-                    <h1>Lidya Ghebreiziabher</h1>
-                    <h3>Freelance<span ref={textref}>Designer</span></h3>
+                    <h1>Lidya Ghere</h1>
+                    <h3>Stacks<span ref={textref}></span></h3>
                 </div>
                 <a href='#portfolio'>
                     <img src='assets/down.png' alt='down'/>
