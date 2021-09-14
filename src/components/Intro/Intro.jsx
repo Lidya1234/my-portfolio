@@ -17,7 +17,7 @@ export default function Intro() {
         <div className='intro' id='intro'>
             <div className='left'>
            <div className="imgContainer">
-               <img src='assets/Lidu.png' alt='myimg'/>
+               <img src='https://res.cloudinary.com/lidu4394/image/upload/v1631614663/Lidu_nobg.jpg_mxdui1.png' alt='myimg'/>
            </div>
             </div>
             <div  className='right'>
