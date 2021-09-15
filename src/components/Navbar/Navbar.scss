@@ -24,7 +24,7 @@
             text-decoration: none;
             color: inherit;
             margin-right: 40px;
-            @include mobile{
+            @include mobile(mobile){
                 margin-right: 30px;
             }
         }
@@ -34,7 +34,7 @@
          align-items: center;
          margin-left: 30px;
 
-         @include mobile{
+         @include mobile(mobile){
              margin-left: 10px;
              margin-top: 5px;
          }
@@ -44,7 +44,7 @@
          }
         }
         .mail{
-            @include mobile{
+            @include mobile(mobile){
                 display: none;
             }
         }
