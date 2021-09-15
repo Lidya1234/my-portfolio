@@ -3,7 +3,7 @@
 .contact{
     background-color: white;
     display: flex;
-    @include mobile{
+    @include mobile(mobile){
         flex-direction: column;
     }
     .left {
@@ -32,20 +32,20 @@
        justify-content: space-around;
        align-items: center;
        input{
-           width: 300px;
+           width: 265px;
            height: 30px;
            font-size: 14px;
 
-           @include mobile{
+           @include mobile(mobile){
             width: 200px;
             height: 20px;  
            }
        }
        textarea{
-           width: 300px;
+           width: 265px;
            height: 200px;
            font-size: 14px;
-           @include mobile {
+           @include mobile(mobile) {
             width: 200px;
             height: 100px;
           }
