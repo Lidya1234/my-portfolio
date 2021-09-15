@@ -4,9 +4,13 @@
     background-color: white;
     display: flex;
 
-    @include mobile{
+    @include mobile(mobile){
         flex-direction: column;
         align-items: center;
+    }
+    @include mobile(tablet){
+        flex-direction: row;
+   
     }
 
  .left{
@@ -23,15 +27,16 @@
         justify-content: center;
         float: right;
 
-        @include mobile{
+        @include mobile(mobile){
             align-items: flex-start;
         }
 
      img{
          height: 90%;
-         @include mobile{
-             height: 30%;
+         @include mobile(mobile){
+             height: 40%;
          }
+         
      }
      }
  }
@@ -47,7 +52,7 @@
          flex-direction: column;
          justify-content: center;
 
-         @include mobile{
+         @include mobile(mobile){
              padding-left: 0;
              align-items: center;
          }
@@ -55,7 +60,7 @@
          h1{
              font-size: 60px;
              margin: 10px 0;
-             @include mobile{
+             @include mobile(mobile){
                  font-size: 40px;
              }
          }
@@ -64,7 +69,7 @@
          }
          h3{
              font-size: 30px;
-             @include mobile{
+             @include mobile(mobile){
                  font-size: 20px;
              }
              span{
