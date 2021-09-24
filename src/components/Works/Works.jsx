@@ -63,7 +63,7 @@ const Works = () => {
                             <div className="leftContainer">
                                 <h2>{d.title}</h2>
                                 <p>{d.desc}</p>
-                                <span><a href={d.code} >Code</a>    <a href={d.demo} >Demo</a></span>
+                                <span><a href={d.code} target="_blank" rel='noreferrer'>Code</a>    <a href={d.demo} target="_blank" rel='noreferrer'>Demo</a></span>
                             </div>
                         </div>
                         <div className="right">
