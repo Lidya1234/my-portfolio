@@ -9,7 +9,7 @@ const Works = () => {
         {
             id: 1,
             title: 'Weather App',
-            desc: 'HTML|CSS|BOOTSTRAP|Javascript',
+            desc: 'A weather forecast application which uses an open weather data website API to get the data using city name as an input. It displays the weather with background image representing the weather.Built with HTML|CSS|BOOTSTRAP|Javascript',
             image: 'https://res.cloudinary.com/lidu4394/image/upload/v1616172130/zh4oqmk0aqbkrsoxixhk.png',
             code:  'https://github.com/Lidya1234/weather_app',
             demo: 'https://lidya1234.github.io/weather_app'
@@ -17,7 +17,7 @@ const Works = () => {
         {
             id: 2,
             title: 'Find-your-house',
-            desc: 'React|ROR|CSS|BOOTSTRAP',
+            desc: 'A website for renting a house which fetches data from https://findlidushouse.herokuapp.com API which is built with Ruby on Rails.Built with React|ROR|CSS|BOOTSTRAP',
             image: 'https://res.cloudinary.com/lidu4394/image/upload/v1621517710/vu-anh-TiVPTYCG_3E-unsplash_eivp1p.jpg',
             code:  'https://github.com/Lidya1234/find_my_house',
             demo: 'https://jovial-agnesi-9bf50a.netlify.app/'
@@ -25,7 +25,7 @@ const Works = () => {
         {
             id: 3,
             title: 'Twitter redesign ',
-            desc: 'HTML|CSS|RUBY ON RAILS',
+            desc: 'A twitter redesign with two main pages the home page and user page. Users can follow, unfollow and see other users profiles. A user can create a post and can edit a post.                                      Built with HTML|CSS|BOOTSTRAP|ROR.HTML|CSS|RUBY ON RAILS',
             image: 'https://res.cloudinary.com/lidu4394/image/upload/v1616167294/te5vmhwba5lkf4ficeke.png',
             code:  'https://github.com/Lidya1234/tweeter_redesign',
             demo: 'https://my-tweeter-redesign.herokuapp.com/'
@@ -33,7 +33,7 @@ const Works = () => {
         {
             id: 4,
             title: 'Turn based RPG ',
-            desc: 'HTML|CSS|javascript|phaser',
+            desc: 'A RPG game with two characters chasing balls that move in all directions. The characters interchange their role when you click the space bar.Built with HTML|CSS|javascript|phaser',
             image: 'https://res.cloudinary.com/lidu4394/image/upload/v1616172131/ggqbr03ot4v4rlrxb5kr.png',
             code:  'https://github.com/Lidya1234/RPG-game',
             demo: 'https://romantic-albattani-29c047.netlify.app/'
@@ -41,7 +41,7 @@ const Works = () => {
         {
             id: 5,
             title: 'Social Media App',
-            desc: 'HTML|CSS|BOOTSTRAP|RUBY ON RAILS',
+            desc: 'A Social Media App with which a user can send,delete,confirm  friend requests.                          Built with HTML|CSS|BOOTSTRAP|ROR.',
             image: 'https://res.cloudinary.com/lidu4394/image/upload/v1616167107/zhklfoaz9dzpp0qcu57g.png',
             code:  'https://github.com/Lidya1234/ror-social-scaffold',
             demo: 'https://stayintouch1.herokuapp.com'
